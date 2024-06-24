@@ -70,6 +70,9 @@ RUN_DEPENDS=	bind-tools>=0:dns/bind-tools \
 		xinetd>=0:security/xinetd \
 		openvpn-auth-script>=0:security/openvpn-auth-script \
 		opensc>0:security/opensc \
+		snort>0:security/snort \
+		squid>0:www/squid \
+		clamav>0:security/clamav \
 		ccid>0:devel/libccid \
 		iftop>0:net-mgmt/iftop \
 		nss_ldap>0:net/nss_ldap \
