@@ -71,8 +71,16 @@ RUN_DEPENDS=	bind-tools>=0:dns/bind-tools \
 		openvpn-auth-script>=0:security/openvpn-auth-script \
 		opensc>0:security/opensc \
 		snort>0:security/snort \
+		${PRODUCT_NAME}-pkg-snort>0:security/${PRODUCT_NAME}-pkg-snort \
 		squid>0:www/squid \
+		squid_radius_auth>0:www/squid_radius_auth \
+		${PRODUCT_NAME}-pkg-squid>0:www/${PRODUCT_NAME}-pkg-squid \
+		lightSquid>0:www/lightSquid \
+		squidguard>0:www/squidguard \
+		${PRODUCT_NAME}-pkg-Lightsquid>0:www/${PRODUCT_NAME}/Lightsquid \
+		${PRODUCT_NAME}-pkg-squidGuard>0:www/${PRODUCT_NAME}/squidGuard \
 		clamav>0:security/clamav \
+		squidclamav>0:www/squidclamav \
 		ccid>0:devel/libccid \
 		iftop>0:net-mgmt/iftop \
 		nss_ldap>0:net/nss_ldap \
