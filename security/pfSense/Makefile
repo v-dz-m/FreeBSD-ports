@@ -75,10 +75,10 @@ RUN_DEPENDS=	bind-tools>=0:dns/bind-tools \
 		squid>0:www/squid \
 		squid_radius_auth>0:www/squid_radius_auth \
 		${PRODUCT_NAME}-pkg-squid>0:www/${PRODUCT_NAME}-pkg-squid \
-		lightSquid>0:www/lightSquid \
+		lightsquid>0:www/lightsquid \
 		squidguard>0:www/squidguard \
-		${PRODUCT_NAME}-pkg-Lightsquid>0:www/${PRODUCT_NAME}/Lightsquid \
-		${PRODUCT_NAME}-pkg-squidGuard>0:www/${PRODUCT_NAME}/squidGuard \
+		${PRODUCT_NAME}-pkg-Lightsquid>0:www/${PRODUCT_NAME}-pkg-Lightsquid \
+		${PRODUCT_NAME}-pkg-squidGuard>0:www/${PRODUCT_NAME}-pkg-squidGuard \
 		clamav>0:security/clamav \
 		squidclamav>0:www/squidclamav \
 		ccid>0:devel/libccid \
